@@ -1,0 +1,16 @@
+{
+	"format_version": "1.10.0",
+	"animations": {
+		"animation.glitchforce": {
+			"timeline": {
+				"0.5": "/effect @p slowness 3 3 true",
+				"2.0": "/tp @p ~5 ~ ~",
+				"2.8": "/effect @p levitation 7 2 false",
+				"5.0": "/effect @p wither 5 1 false",
+				"9.9": "/effect @p clear"
+			},
+			"animation_length": 10,
+			"loop": false
+		}
+	}
+}

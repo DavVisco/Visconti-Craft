@@ -1,0 +1,81 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.idling": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"animations": [
+						"idling"
+					]
+				}
+			}
+		},
+		"controller.animation.draw": {
+			"initial_state": "default",
+			"states": {
+				"draw": {
+					"animations": [
+						"draw"
+					],
+					"transitions": [
+						{
+							"default": "!query.has_target"
+						}
+					]
+				},
+				"default": {
+					"transitions": [
+						{
+							"draw": "query.has_target"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.teleport": {
+			"initial_state": "default",
+			"states": {
+				"teleport": {
+					"animations": [
+						"teleport"
+					],
+					"transitions": [
+						{
+							"default": "!query.is_critical"
+						}
+					]
+				},
+				"default": {
+					"transitions": [
+						{
+							"teleport": "query.is_critical"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.swim": {
+			"initial_state": "default",
+			"states": {
+				"swim": {
+					"animations": [
+						"swim"
+					],
+					"transitions": [
+						{
+							"default": "!query.is_swimming"
+						}
+					]
+				},
+				"default": {
+					"transitions": [
+						{
+							"swim": "query.is_swimming"
+						}
+					]
+				}
+			}
+		}
+	}
+}
