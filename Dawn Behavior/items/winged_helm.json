@@ -1,0 +1,44 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+        "description": {
+            "identifier": "visco:winged_helm",
+            "category": "Equipment"
+        },
+        "components": {
+            "minecraft:max_stack_size": 1,
+            "minecraft:enchantable": {
+                "value": 10,
+                "slot": "armor_head"
+            },
+            "minecraft:durability": {
+                "max_durability":  300,
+                "damage_chance": {
+                    "min": 0,
+                    "max": 100
+                }
+            },
+            "minecraft:armor": {
+                "protection": 2,
+                "texture_type": "iron"
+            },
+            "minecraft:knockback_resistance": {
+                "protection": 1.0
+            },
+           
+            "minecraft:creative_category": {
+                "parent": "itemGroup.name.helmet"
+            },
+            "minecraft_icon": {
+                "texture": "winged_helm"
+            },
+            "minecraft:wearable": {
+                "slot": "slot.armor.head"
+            },
+            "minecraft:display_name": {
+                "value": "Winged Helm"
+            },
+            "tag:visco:winged_helm": {}
+        }
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+        "description": {
+            "identifier": "visco:godly_leggings",
+            "category": "Equipment"
+        },
+        "components": {
+            "minecraft:max_stack_size": 1,
+            "minecraft:enchantable": {
+                "value": 15,
+                "slot": "armor_legs"
+            },
+            "minecraft:durability": {
+                "max_durability":  800,
+                "damage_chance": {
+                    "min": 0,
+                    "max": 100
+                }
+            },
+            "minecraft:armor": {
+                "protection": 5,
+                "texture_type": "diamond"
+            },
+            "minecraft:knockback_resistance": {
+                "protection": 1.0
+            },
+           
+            "minecraft:creative_category": {
+                "parent": "itemGroup.name.leggings"
+            },
+            "minecraft_icon": {
+                "texture": "godly_leggings"
+            },
+            "minecraft:wearable": {
+                "slot": "slot.armor.legs"
+            },
+            "minecraft:display_name": {
+                "value": "Godly Leggings"
+            },
+            "tag:visco:godly_leggings": {}
+        }
+    }
+}

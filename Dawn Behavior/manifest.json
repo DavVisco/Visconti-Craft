@@ -1,0 +1,29 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "Dawn Rising",
+        "name": "Dawn  Behavior",
+        "uuid": "3346f2f7-2eee-4ad7-b874-990831a101ab",
+        "version": [ 0, 0, 1 ],
+        "min_engine_version": [ 1, 14, 0 ]
+    },
+    "modules": [
+        {
+            "description": "Dawn Rising",
+            "type": "data",
+            "uuid": "8d76d844-baf0-408b-a3ee-5e7a5ad6c7b2",
+            "version": [0, 0, 1]
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "8c9fbaa2-3ba8-4650-aafc-bbd9051d4c97",
+            "version": [0, 0, 1]
+        }
+    ],
+    "metadata": {
+    	"authors": [
+    		"A new dawn by DadVisco"
+    	]
+    }
+}

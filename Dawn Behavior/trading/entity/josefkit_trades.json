@@ -1,0 +1,70 @@
+{
+  "tiers": [
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 20
+            },
+            {
+                "item": "minecraft:golden_sword",
+                "quantity": 1
+            }
+          ],
+          "gives": [
+            {
+              "item": "visco:bag_o_gear",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:diamond",
+              "quantity": 2
+            },
+            {
+                "item": "minecraft:clock",
+                "quantity": 1
+            }
+          ],
+          "gives": [
+            {
+              "item": "visco:bag_o_stuff",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald_block",
+              "quantity": 1
+            },
+            {
+                "item": "minecraft:diamond_block",
+                "quantity": 1
+            },
+            {
+                "item": "minecraft:gold_block",
+                "quantity": 1
+            },
+            {
+                "item": "minecraft:iron_block",
+                "quantity": 1
+            }
+          ],
+          "gives": [
+            {
+              "item": "visco:bag_o_blocks",
+              "quantity": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
